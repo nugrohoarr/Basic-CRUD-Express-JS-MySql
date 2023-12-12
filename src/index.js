@@ -3,7 +3,6 @@ const bodyParser = require('body-parser');
 require('dotenv').config();
 const userRoutes = require('./routes/usersRoutes.js');
 const middlewareLogRequest = require('./middleware/logs.js');
-const multer = require('multer');
 const upload = require('./middleware/multer.js');
 
 
